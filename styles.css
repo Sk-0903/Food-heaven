@@ -32,3 +32,13 @@ header {
     padding: 15px;
     border-radius: 10px;
     box-shadow:
+
+ /* Food Images - Ensuring Same Size */
+.food-item img {
+    width: 100%;
+    height: 180px; /* Fixed height */
+    object-fit: cover; /* Ensures uniform cropping */
+    border-radius: 8px;
+    margin-top: 10px;
+}
+       
